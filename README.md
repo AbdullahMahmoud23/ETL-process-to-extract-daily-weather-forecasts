@@ -14,8 +14,6 @@ First, you'll use the `curl` command to scrape weather data via the *wttr.in* we
 ```
 curl wttr.in/casablanca
 ```
-Copied!
-
 Wrap Toggled!
 which prints the following to stdout:
 <img width="900" height="652" alt="Image" src="https://github.com/user-attachments/assets/5fba4fa8-8145-4048-beec-9bcf63086d81" />
@@ -34,4 +32,16 @@ You must extract and store the following data every day at noon, local time, for
 
 - The actual temperature (in degrees Celsius)
 - The forecasted temperature (in degrees Celsius) for the following day at noon
-Here is an example of what the the resulting weather report should look like:
+Here is an example of what the resulting weather report should look like:
+
+| year	| month	| day	| obs_tmp	| fc_temp
+| 2023	| 1	| 1	| 10	| 11 | 
+| 2023	| 1	| 2	| 11	| 12 | 
+| 2023	| 1	| 3	| 12	| 10 | 
+| 2023	| 1	| 4	| 13	| 13 | 
+| 2023	| 1	| 5	| 10	| 9 | 
+| 2023	| 1	| 6	| 11	| 10 | 
+| ... | ... | ... | ... | ... | 
+
+
+
