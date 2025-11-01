@@ -19,13 +19,13 @@ which prints the following to stdout:
 <img width="900" height="652" alt="Image" src="https://github.com/user-attachments/assets/5fba4fa8-8145-4048-beec-9bcf63086d81" />
 
 ## Learning Objectives
-After completing this practice project, you will be able to apply your new shell scripting skills in a real-world scenario to:
+In this practice project, you will:
 
-Download raw weather data
-Extract data of interest from the raw data
-Transform the data as required
-Load the data into a log file using a tabular format
-Schedule the entire process to run automatically at a set time daily
+- Initialize your log file
+- Write a Bash script to download, extract, and load raw data into a report
+- Add some basic analytics to your report
+- Schedule your report to update daily
+- Measure and report on historical forecasting accuracy
 ## Overview
 ### Weather reporting tasks
 You must extract and store the following data every day at noon, local time, for Casablanca, Morocco:
