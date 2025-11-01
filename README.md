@@ -18,4 +18,4 @@ Copied!
 
 Wrap Toggled!
 which prints the following to stdout:
-[]("A:\Downloads\wttr_casablanca.png")
+<img width="900" height="652" alt="Image" src="https://github.com/user-attachments/assets/5fba4fa8-8145-4048-beec-9bcf63086d81" />
